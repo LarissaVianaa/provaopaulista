@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Informativo Provão Paulista</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Estudo - Provão Paulista</h1>
+    <p>Conteúdo que pode cair no Provão Paulista.</p>
+  </header>
+
+  <div class="tabs">
+  
+
+    </label>
+
+    <div class="tablinks">
+      <button class="tablink" onclick="openTab(event, 'inicio')">Início</button>
+      <button class="tablink" onclick="openTab(event, 'matematica')">📚 Matemática</button>
+      <button class="tablink" onclick="openTab(event, 'portugues')">📖 Português</button>
+      <button class="tablink" onclick="openTab(event, 'biologia')">🔬 Biologia</button>
+      <button class="tablink" onclick="openTab(event, 'historia')">📜 História</button>
+      <button class="tablink" onclick="openTab(event, 'geografia')">🌍 Geografia</button>
+      <button class="tablink" onclick="openTab(event, 'ingles')">🏈 Inglês</button>
+    </div>
+  </div>
+
+
+  <div id="inicio" class="tabcontent">
+    <h2>Bem-vindo ao Sistema de Estudos do Provão Paulista</h2>
+    <p>Este sistema foi desenvolvido para auxiliar os alunos na preparação para o Provão Paulista, que ocorrerá nos dias <strong>30 e 31 de outubro</strong>. Essa prova é extremamente importante para quem deseja entrar em uma faculdade, pois é um dos principais requisitos para o ingresso em instituições públicas e privadas de ensino superior.</p>
+    <p>A atividade dos alunos será desenvolver um sistema com materiais de estudo que abordem os principais tópicos cobrados na prova. Aqui você encontrará conteúdos sobre Matemática, Português, Ciências, História, Geografia e outros, além de formulários para praticar os conhecimentos adquiridos e blocos de anotações para registrar suas dúvidas e estudos.</p>
+    
+  
+    <div class="image-container">
+      <img src="/img/image.png" alt="Imagem ilustrativa sobre o Provão Paulista">
+    </div>
+    
+    <div class="activity-text">
+        <h1>ATIVIDADE DO TIO ERICK</h1>
+        <p>Construa nas demais abas um material de estudo para cada matéria listada na parte superior do site.</p>
+        
+        <p>Quero tirar um momento para falar diretamente com vocês. Este é um período muito importante em suas vidas, e eu gostaria que vocês se esforçassem ao máximo. O Provão Paulista é mais do que apenas uma prova; é uma oportunidade incrível de dar um passo em direção ao futuro que vocês sempre sonharam. Acreditem em mim quando digo que o esforço que vocês colocam agora pode abrir portas para as faculdades que tanto desejam.</p>
+        
+        <p>Lembrem-se de que cada um de vocês tem um potencial enorme. Eu amo cada um de vocês e já sinto um imenso orgulho pelo trabalho que vocês têm feito até aqui. Estou confiante de que, se se dedicarem e acreditarem em si mesmos, conseguirão alcançar grandes conquistas.</p>
+        
+        <p>Espero encontrá-los no topo algum dia, realizando os sonhos que têm cultivado com tanto carinho. Continuem firmes e lembrem-se: vocês são capazes de conseguir, eu amo muito cada um de vocês.</p>
+        
+        <p class="signature">Bons estudos do Professor e muito gato, <strong>Erick Barbosa</strong></p>
+    </div>
+  </div>
+
+  <div id="matematica" class="tabcontent">
+    <h2>Matemática</h2>
+    <p><strong>Tópicos importantes:</strong></p>
+    <ul>
+      <li style="text-align: center;"><strong>Aritmética</strong>
+        <br>
+      <p>A aritmética é o ramo da matemática que lida com os números e as operações básicas que podem ser realizadas entre eles. É a base de toda a matemática e é utilizada no cotidiano para resolver problemas simples e complexos.</p>
+     
+<br>
+      <li><strong>Operações Básicas:</strong>
+        <br>
+        <p>As operações fundamentais da aritmética incluem:</p>
+          <ul>
+            <li><strong>Adição (+):</strong> A operação de somar dois ou mais números. Exemplo: \(3 + 5 = 8\).</li>
+            <li><strong>Subtração (-):</strong> A operação de subtrair um número de outro. Exemplo: \(10 - 4 = 6\).</li>
+            <li><strong>Multiplicação (×):</strong> A operação de multiplicar dois ou mais números. Exemplo: \(7 × 6 = 42\).</li>
+            <li><strong>Divisão (÷):</strong> A operação de dividir um número por outro. Exemplo: \(20 ÷ 5 = 4\).</li>
+          </ul>
+      </li>
+      
+<br>
+      <li><strong>Propriedades:</strong>
+          <p>A aritmética possui várias propriedades importantes que facilitam a realização de cálculos:</p>
+          <ul>
+            <li><strong>Comutativa:</strong> A ordem dos números não altera o resultado, tanto na adição quanto na multiplicação. Exemplo: \(a + b = b + a\) e \(a × b = b × a\).</li>
+            <li><strong>Associativa:</strong> A forma como os números são agrupados não altera o resultado. Exemplo: \((a + b) + c = a + (b + c)\) e \((a × b) × c = a × (b × c)\).</li>
+            <li><strong>Distributiva:</strong> A multiplicação distribui-se sobre a adição. Exemplo: \(a × (b + c) = a × b + a × c\).</li>
+          </ul>
+      </li>
+      </li>
+      <div>
+        <h2>Questões de Aritmética</h2>
+        <form id="aritmetica-quiz">
+          <div>
+            <label for="questao1">1. Qual é o resultado de 15 + 28?</label>
+            <input type="number" id="questao1" required>
+          </div>
+          <div>
+            <label for="questao2">2. O que é 72 ÷ 8?</label>
+            <input type="number" id="questao2" required>
+          </div>
+          <button type="submit">Verificar Respostas</button>
+        </form>
+        <p id="resultado" style="margin-top: 10px;"></p>
+      </div>
+<br>
+      <li style="text-align: center;"><strong>Geometria</strong>
+        <br>
+      <p>A geometria é o ramo da matemática que estuda as propriedades e relações de pontos, linhas, superfícies e sólidos no espaço. Ela lida com formas, tamanhos e posições, investigando como essas figuras interagem e se organizam.</p>
+    <br>
+      <ul>
+      <li style="text-align: justify;"><strong>Geometria Euclidiana:</strong> Fundada por Euclides, estuda as figuras em um espaço plano (2D) e tridimensional (3D). Baseia-se em axiomas simples, como "uma linha reta pode ser traçada entre dois pontos". Essa é a geometria tradicional ensinada nas escolas.</li>
+      <li style="text-align: justify;"><strong>Geometria Analítica:</strong> Usa coordenadas e álgebra para descrever geometricamente figuras como curvas e superfícies. Desenvolvida por Descartes, essa abordagem combina álgebra e geometria, permitindo resolver problemas geometricamente com equações.</li>
+      <li style="text-align: justify;"><strong>Geometria Não Euclidiana:</strong> Explora espaços em que as regras da geometria euclidiana não se aplicam, como superfícies curvas. Um exemplo é a geometria hiperbólica, onde as linhas paralelas podem divergir, usada em cosmologia para modelar o universo.</li>
+      <li style="text-align: justify;"><strong>Geometria Diferencial:</strong> Estuda formas curvas e superfícies usando cálculo diferencial. Ela é fundamental em física, especialmente na teoria da relatividade, que descreve o espaço-tempo como uma superfície curva.</li>
+     </ul>
+    </li>
+<br>
+      <li style="text-align: center;"><strong>Álgebra</strong>
+        <br>
+      <p>A álgebra é o ramo da matemática que usa símbolos, geralmente letras, para representar números e generalizar operações aritméticas. Ela é usada para resolver equações e modelar relações matemáticas, permitindo trabalhar com variáveis que podem assumir diferentes valores.</p>
+      <br>
+      <ul>
+        <li style="text-align: justify;"><strong>Equações:</strong> São expressões que indicam uma igualdade entre duas partes. Resolver uma equação significa encontrar o valor da variável que a torna verdadeira, como em \(2x + 3 = 7\).</li>
+        <li style="text-align: justify;"><strong>Polinômios:</strong> São expressões algébricas formadas por variáveis e coeficientes, organizados em potências. Um exemplo é \(3x^2 + 2x - 5\).</li>
+        <li style="text-align: justify;"><strong>Sistemas de Equações:</strong> Conjunto de duas ou mais equações que precisam ser resolvidas simultaneamente, geralmente usados para resolver problemas complexos.</li>
+        <li style="text-align: justify;"><strong>Álgebra Linear:</strong> Estudo de vetores, matrizes e espaços vetoriais, usados para resolver sistemas de equações e modelar fenômenos multidimensionais.</li>
+      </ul>
+    </li>
+<br>
+      <li style="text-align: center;"><strong>Funções</strong>
+        <br>
+      <p>Funções são relações que associam cada elemento de um conjunto a um único elemento de outro conjunto. Em matemática, uma função é uma regra que recebe um valor de entrada e fornece um valor de saída.</p>
+      <br>
+      <ul>
+        <li style="text-align: justify;"><strong>Função Linear:</strong> Tem a forma \(f(x) = mx + b\), onde \(m\) é a inclinação e \(b\) é o intercepto. É uma das funções mais simples, representando uma linha reta.</li>
+        <li style="text-align: justify;"><strong>Função Quadrática:</strong> Representada por \(f(x) = ax^2 + bx + c\), onde \(a\), \(b\) e \(c\) são constantes. Ela descreve uma parábola.</li>
+        <li style="text-align: justify;"><strong>Funções Polinomiais:</strong> São combinações de potências de uma variável. Um exemplo é \(f(x) = x^3 - 2x^2 + x - 1\).</li>
+        <li style="text-align: justify;"><strong>Funções Exponenciais:</strong> Funções onde a variável aparece no expoente, como \(f(x) = 2^x\), usadas em crescimento populacional, juros compostos e muitos outros fenômenos.</li>
+      </ul>
+    </li>
+    </ul>
+</div>
+
+
+  
+
+    <div id="portugues" class="tabcontent">
+      <h2>Português</h2>
+      <p>Tópicos importantes:</p>
+      <ul>
+        <li style="text-align: center;"><strong>Interpretação de Texto</strong>
+          <br>
+            <p>A interpretação de texto é a habilidade de compreender, analisar e tirar conclusões a partir de um texto escrito. Envolve a identificação de ideias principais, inferências, contexto, e a capacidade de avaliar criticamente o conteúdo apresentado.</p>
+            <ul>
+              <li style="text-align: justify;"><strong>Leitura Literal:</strong> Consiste em entender o sentido direto do texto, ou seja, aquilo que está explícito e evidente.</li>
+              <li style="text-align: justify;"><strong>Leitura Inferencial:</strong> Refere-se à capacidade de fazer deduções ou inferências baseadas em informações implícitas no texto.</li>
+              <li style="text-align: justify;"><strong>Leitura Crítica:</strong> Vai além da compreensão e inferência, envolvendo a avaliação e julgamento das ideias do texto, sua coerência e argumentação.</li>
+            </ul>
+        </li>
+  <br>
+        <li style="text-align: center;"><strong>Gramática</strong>
+          <br>
+          
+        <p>A gramática é o estudo das regras que governam o uso da língua. Ela lida com a estrutura das palavras (morfologia), a organização das frases (sintaxe) e o uso correto dos sons (fonologia).</p>
+        <br>
+        <ul>
+          <li style="text-align: justify;"><strong>Morfologia:</strong> Estuda a estrutura e a formação das palavras, incluindo categorias gramaticais como substantivos, adjetivos, verbos, pronomes, etc.</li>
+          <li style="text-align: justify;"><strong>Sintaxe:</strong> Lida com a organização das palavras em frases e orações, analisando a relação entre os termos e a construção correta das frases.</li>
+          <li style="text-align: justify;"><strong>Fonologia:</strong> Refere-se ao estudo dos sons da língua e como eles se organizam e se combinam para formar palavras e frases.</li>
+          <li style="text-align: justify;"><strong>Ortografia:</strong> Diz respeito à forma correta de escrita das palavras, seguindo as regras convencionadas da língua.</li>
+        </ul>
+      </li>
+  <br>
+        <li style="text-align: center;"><strong>Redação</strong>
+          <br>
+        <p>A redação é a prática de escrever textos coerentes, coesos e estruturados, com o objetivo de transmitir ideias, narrar histórias, descrever fatos ou defender um ponto de vista. É fundamental em diversos contextos, desde exames escolares até comunicações formais.</p>
+        <br>
+        <ul>
+          <li style="text-align: justify;"><strong>Estrutura de Texto:</strong> Uma boa redação deve ter introdução (apresenta o tema), desenvolvimento (exploração das ideias) e conclusão (fechamento e avaliação do tema).</li>
+          <li style="text-align: justify;"><strong>Coesão e Coerência:</strong> Coesão refere-se ao uso correto de conectivos para ligar as ideias no texto, enquanto a coerência diz respeito à lógica e à clareza das ideias expostas.</li>
+          <li style="text-align: justify;"><strong>Tipologias Textuais:</strong> Existem diferentes tipos de redação, como narrativa, dissertativa, descritiva e argumentativa, cada uma com suas características próprias.</li>
+          <li style="text-align: justify;"><strong>Argumentação:</strong> Em textos dissertativos, é importante apresentar argumentos sólidos, embasados em fatos, dados ou opiniões fundamentadas, para defender o ponto de vista proposto.</li>
+        </ul>
+      </li>
+      </ul>
+  </div>
+  
+
+  <div id="biologia" class="tabcontent">
+    <h2>Biologia</h2>
+    <p>Tópicos importantes:</p>
+    <ul>
+      <li style="text-align: center;"><strong>Biologia Celular</strong>
+        <br>
+          <p>A biologia celular é o ramo da biologia que estuda a célula, sua estrutura, função e processos vitais. A célula é a menor unidade da vida e está presente em todos os organismos vivos.</p>
+          <br>
+          <ul>
+            <li style="text-align: justify;"><strong>Células Procarióticas:</strong> São células simples, sem núcleo definido, como as bactérias. O material genético está disperso no citoplasma.</li>
+            <li style="text-align: justify;"><strong>Células Eucarióticas:</strong> São células mais complexas, com núcleo definido, onde o material genético está envolto por uma membrana. São encontradas em animais, plantas, fungos e protistas.</li>
+            <li style="text-align: justify;"><strong>Organelas Celulares:</strong> Estruturas especializadas dentro da célula, como o núcleo (controle das funções celulares), mitocôndrias (produção de energia) e ribossomos (síntese de proteínas).</li>
+            <li style="text-align: justify;"><strong>Divisão Celular:</strong> Processo pelo qual as células se reproduzem. Existem dois tipos principais: mitose (células somáticas) e meiose (células reprodutivas).</li>
+          </ul>
+      </li>
+<br>
+      <li style="text-align: center;"><strong>Genética</strong>
+        <br>
+      <p>A genética é o ramo da biologia que estuda os genes, a hereditariedade e a variação dos organismos. Ela investiga como as características são transmitidas de uma geração para outra.</p>
+      <br>
+      <ul>
+        <li style="text-align: justify;"><strong>DNA e RNA:</strong> O DNA (ácido desoxirribonucleico) é a molécula que carrega as instruções genéticas, enquanto o RNA (ácido ribonucleico) participa na síntese de proteínas e na transmissão da informação genética.</li>
+        <li style="text-align: justify;"><strong>Genes e Alelos:</strong> Genes são segmentos de DNA que codificam características específicas. Alelos são diferentes formas de um mesmo gene, responsáveis pela variação dessas características.</li>
+        <li style="text-align: justify;"><strong>Herança Mendeliana:</strong> Princípios de hereditariedade propostos por Gregor Mendel, que descrevem como as características são passadas dos pais para os filhos, com base em genes dominantes e recessivos.</li>
+        <li style="text-align: justify;"><strong>Mutação:</strong> Alterações na sequência do DNA que podem causar variações nas características ou doenças genéticas.</li>
+      </ul>
+    </li>
+<br>
+      <li style="text-align: center;"><strong>Ecologia</strong>
+        <br>
+      <p>A ecologia é o estudo das interações entre os organismos e o ambiente em que vivem, bem como as relações entre os diferentes seres vivos. Ela investiga como as populações se organizam e como os ecossistemas funcionam.</p>
+      <br>
+      <ul>
+        <li style="text-align: justify;"><strong>Ecossistemas:</strong> Conjunto de seres vivos (comunidades) e o ambiente físico (biótopo) onde interagem. Os ecossistemas podem ser terrestres (florestas, desertos) ou aquáticos (lagos, oceanos).</li>
+        <li style="text-align: justify;"><strong>Cadeia Alimentar:</strong> Sequência de transferência de energia e nutrientes entre os organismos. Inclui produtores (plantas), consumidores (animais) e decompositores (fungos e bactérias).</li>
+        <li style="text-align: justify;"><strong>Biodiversidade:</strong> Variedade de formas de vida em um ecossistema. A biodiversidade é essencial para a estabilidade e resiliência dos ecossistemas.</li>
+        <li style="text-align: justify;"><strong>Sustentabilidade:</strong> Práticas que visam o uso equilibrado dos recursos naturais, garantindo sua disponibilidade para as futuras gerações sem causar degradação ambiental.</li>
+      </ul>
+    </li>
+    </ul>
+</div>
+
+
+<div id="historia" class="tabcontent">
+  <h2>História</h2>
+  <p>Tópicos importantes:</p>
+  <ul>
+    <li style="text-align: center;"><strong>História Geral</strong>
+      <br>
+        <p>História Geral é o estudo dos principais eventos e processos que marcaram a trajetória da humanidade ao longo do tempo. Ela abrange diferentes civilizações, eras e transformações culturais, políticas e sociais.</p>
+      
+        <ul>
+          <li style="text-align: justify;"><strong>Antiguidade:</strong> Período das grandes civilizações antigas, como Egito, Mesopotâmia, Grécia e Roma, que deixaram profundas influências nas áreas de ciência, filosofia, política e arte.</li>
+          <li style="text-align: justify;"><strong>Idade Média:</strong> Fase entre o fim do Império Romano e o início da Idade Moderna, marcada pelo feudalismo, pela influência da Igreja Católica e pelas Cruzadas.</li>
+          <li style="text-align: justify;"><strong>Idade Moderna:</strong> Período que inclui o Renascimento, as Grandes Navegações e as Reformas Religiosas. Destaca-se também pelo surgimento do capitalismo e pela centralização do poder nas monarquias.</li>
+          <li style="text-align: justify;"><strong>Idade Contemporânea:</strong> Era iniciada com a Revolução Francesa e marcada por eventos como a Revolução Industrial, as Guerras Mundiais e os processos de descolonização, até os dias atuais.</li>
+        </ul>
+    </li>
+<br>
+    <li style="text-align: center;"><strong>História do Brasil</strong>
+      <br>
+    <p>A História do Brasil estuda os eventos que moldaram o desenvolvimento do país, desde a chegada dos primeiros povos até os dias atuais. Ela explora os processos de colonização, independência, formação do Estado e as transformações sociais e políticas ao longo dos séculos.</p>
+    <br>
+    <ul>
+      <li style="text-align: justify;"><strong>Período Pré-Colonial:</strong> Refere-se à época anterior à chegada dos europeus, quando o território brasileiro era habitado por diversas nações indígenas com culturas e formas de organização social próprias.</li>
+      <li style="text-align: justify;"><strong>Colonização (1500-1822):</strong> Iniciada com a chegada dos portugueses em 1500, essa fase foi marcada pela exploração do pau-brasil, produção açucareira e o início da escravidão africana, além da resistência indígena.</li>
+      <li style="text-align: justify;"><strong>Independência e Império (1822-1889):</strong> Em 1822, o Brasil se torna independente de Portugal e entra no período imperial, com Pedro I e Pedro II como imperadores, marcado por lutas internas e a abolição da escravidão em 1888.</li>
+      <li style="text-align: justify;"><strong>República (1889-presente):</strong> Após a Proclamação da República, o Brasil viveu períodos de grande transformação, como a República Velha, a Era Vargas, o regime militar, e a redemocratização, até o atual cenário político.</li>
+    </ul>
+  </li>
+  </ul>
+</div>
+
+
+<div id="geografia" class="tabcontent">
+  <h2>Geografia</h2>
+  <p>Tópicos importantes:</p>
+  <ul>
+    <br>
+    <li style="text-align: center;"><strong>Geografia Física</strong>
+      <br>
+        <p>Geografia Física é o ramo da geografia que estuda os elementos naturais da Terra, como relevo, clima, vegetação, solos, hidrografia e as interações entre eles. Seu objetivo é compreender os processos naturais que moldam o planeta.</p>
+        <br>
+        <ul>
+          <li style="text-align: justify;"><strong>Relevo:</strong> Refere-se à forma da superfície terrestre, incluindo montanhas, planaltos, planícies e vales. É resultado de processos geológicos, como vulcanismo e erosão.</li>
+          <li style="text-align: justify;"><strong>Clima:</strong> Estudo dos padrões de tempo e clima em diferentes regiões. Engloba fatores como temperatura, umidade, precipitação e ventos, influenciados pela latitude, altitude e correntes oceânicas.</li>
+          <li style="text-align: justify;"><strong>Hidrografia:</strong> Estudo das águas da Terra, incluindo rios, lagos, oceanos e aquíferos. A hidrografia analisa o ciclo da água e sua importância para os ecossistemas e a sociedade.</li>
+          <li style="text-align: justify;"><strong>Vegetação e Biomas:</strong> A vegetação varia de acordo com o clima e o relevo, formando biomas como florestas tropicais, desertos, tundras e savanas. O estudo dos biomas é fundamental para entender a biodiversidade.</li>
+        </ul>
+    </li>
+<br>
+    <li style="text-align: center;"><strong>Geopolítica</strong>
+      <br>
+    <p>A Geopolítica estuda a influência da geografia no poder político e nas relações internacionais. Analisa como os recursos naturais, as fronteiras, as características geográficas e a localização dos países afetam suas estratégias de poder e a dinâmica global.</p>
+    <br>
+    <ul>
+      <li style="text-align: justify;"><strong>Conflitos Territoriais:</strong> Disputas por fronteiras e territórios são comuns na geopolítica, como os conflitos no Oriente Médio, a disputa por ilhas no Mar do Sul da China e as tensões entre Rússia e Ucrânia.</li>
+      <li style="text-align: justify;"><strong>Recursos Naturais:</strong> O controle de recursos estratégicos, como petróleo, gás natural, água e minerais, é um fator crucial na geopolítica, gerando alianças e disputas entre nações.</li>
+      <li style="text-align: justify;"><strong>Organizações Internacionais:</strong> Instituições como a ONU, OTAN, OMC e União Europeia desempenham papéis centrais na geopolítica, mediando conflitos e promovendo a cooperação entre países.</li>
+      <li style="text-align: justify;"><strong>Polaridade Global:</strong> Refere-se à distribuição de poder no sistema internacional. A Guerra Fria foi um exemplo de mundo bipolar (EUA e URSS), enquanto hoje há debates sobre a ascensão de uma nova multipolaridade com o crescimento da China.</li>
+    </ul>
+  </li>
+  </ul>
+</div>
+
+
+<div id="ingles" class="tabcontent">
+  <h2>Inglês</h2>
+  <p>Tópicos importantes:</p>
+  <ul>
+    <li style="text-align: center;"><strong>Compreensão de Texto</strong>
+      <br>
+        <p>A compreensão de texto em inglês envolve a habilidade de ler e interpretar textos, identificando o significado principal, as ideias secundárias e as inferências. Essa habilidade é crucial para entender diferentes gêneros textuais, como notícias, artigos, contos e textos acadêmicos.</p>
+        <br>
+        <ul>
+          <li style="text-align: justify;"><strong>Skimming:</strong> Técnica de leitura rápida para captar a ideia geral de um texto sem focar em detalhes.</li>
+          <li style="text-align: justify;"><strong>Scanning:</strong> Técnica de leitura que busca por informações específicas em um texto, como datas, nomes ou números.</li>
+          <li style="text-align: justify;"><strong>Inferência:</strong> Habilidade de deduzir informações implícitas no texto, com base no contexto.</li>
+          <li style="text-align: justify;"><strong>Identificação do Tema Principal:</strong> A habilidade de localizar e entender o foco principal de um texto, distinguindo-o dos detalhes secundários.</li>
+        </ul>
+    </li>
+<br>
+    <li style="text-align: center;"><strong>Gramática</strong>
+      <br>
+    <p>A gramática da língua inglesa é o conjunto de regras que regem o uso da língua, envolvendo a estrutura das palavras, frases e orações. Ela abrange elementos como tempos verbais, tipos de frases, e a concordância entre os diferentes elementos da sentença.</p>
+    <br>
+    <ul>
+      <li style="text-align: justify;"><strong>Tempos Verbais:</strong> Present Simple, Past Simple, Present Continuous, Present Perfect, entre outros, que indicam o momento da ação.</li>
+      <li style="text-align: justify;"><strong>Pronomes:</strong> Uso de pronomes pessoais, possessivos, reflexivos e relativos para substituição de substantivos e evitar repetições.</li>
+      <li style="text-align: justify;"><strong>Artigos:</strong> O uso correto de artigos definidos (the) e indefinidos (a, an) para especificar ou generalizar substantivos.</li>
+      <li style="text-align: justify;"><strong>Preposições:</strong> Palavras que indicam relação entre elementos da frase, como in, on, at, by, for, entre outras.</li>
+    </ul>
+  </li>
+<br>
+    <li style="text-align: center;"><strong>Vocabulário</strong>
+      <br>
+    <p>O vocabulário em inglês refere-se ao conjunto de palavras e expressões conhecidas e utilizadas em diferentes contextos. Enriquecer o vocabulário é essencial para a fluência e a compreensão tanto na fala quanto na escrita.</p>
+    <br>
+    <ul>
+      <li style="text-align: justify;"><strong>Palavras Cognatas:</strong> São palavras que têm a mesma origem ou uma forma semelhante em inglês e no português, como "information" e "informação".</li>
+      <li style="text-align: justify;"><strong>Falsos Cognatos:</strong> Palavras que parecem semelhantes em inglês e português, mas têm significados diferentes, como "pretend" (fingir) e "pretender" (intencionar).</li>
+      <li style="text-align: justify;"><strong>Expressões Idiomáticas:</strong> Frases cujo significado não pode ser deduzido diretamente das palavras que as compõem, como "break the ice" (quebrar o gelo).</li>
+      <li style="text-align: justify;"><strong>Phrasal Verbs:</strong> Verbos combinados com preposições ou advérbios que formam um novo significado, como "give up" (desistir) e "run into" (encontrar por acaso).</li>
+    </ul>
+  </li>
+  </ul>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
